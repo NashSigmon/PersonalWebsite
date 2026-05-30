@@ -5,21 +5,22 @@ import Games from "./pages/Games"
 import Books from "./pages/Books"
 import Portfolio from "./pages/Portfolio"
 import Contact from "./pages/Contact"
+import Navbar from "./Navbar"
 
 function App() {
-    return (
-        <BrowserRouter>
+  return (
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/games" element={<Games />} />
+        <Route path="/books" element={<Books />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
 
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/games" element={<Games />} />
-                <Route path="/books" element={<Books />} />
-                <Route path="/portfolio" element={<Portfolio />} />
-                <Route path="/contact" element={<Contact />} />
-            </Routes>
-
-        </BrowserRouter>
-    )
+    </BrowserRouter>
+  )
 }
 
 export default App
