@@ -9,8 +9,18 @@ html {
   scroll-behavior: smooth;
 }
 
+#home{
+    scroll-margin-top: 100px;
+}
+#portfolio{
+    scroll-margin-top: 100px;
+}
+#Footer{
+    scroll-margin-top: 100px;
+}
 
 section{
+    scroll-margin-top: 100px;
     min-height: 100vh;
 }
 
