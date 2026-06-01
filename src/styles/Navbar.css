@@ -1,0 +1,23 @@
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  background-color: black;
+}
+
+nav button {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+nav button:hover {
+    background-color: gray;
+}
