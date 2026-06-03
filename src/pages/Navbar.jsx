@@ -1,6 +1,12 @@
 
 import "../styles/Navbar.css"
 
+
+function highlightActiveSection(id) {
+  console.log('Hey')
+  
+}
+
 function Navbar() {
   const scrollToSection = (id) => {
     document.getElementById(id).scrollIntoView({
@@ -8,15 +14,26 @@ function Navbar() {
     })
   }
 
+
+
   return (
     <nav>
-      <button className="navlink" onClick={() => scrollToSection("home")}>
+      <button className="navlink" onClick={() => {
+        scrollToSection("home");
+        highlightActiveSection("home");
+      }}>
         Home
       </button>
-      <button className="navlink" onClick={() => scrollToSection("portfolio")}>
+      <button className="navlink" onClick={() => {
+        scrollToSection("portfolio");
+        highlightActiveSection("portfolio");
+      }}>
         Portfolio
       </button>
-      <button className="navlink" onClick={() => scrollToSection("contact")}>
+      <button className="navlink" onClick={() => {
+        scrollToSection("contact");
+        highlightActiveSection("contact");
+      }}>
         Contact
       </button>
 

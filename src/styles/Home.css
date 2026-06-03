@@ -1,18 +1,26 @@
 
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 
-#home1 {
-  justify-content: center;
-}
-
-#home1 p {
+#home p {
+  font-family: 'Inter', sans-serif;
   border: solid 1px;
   padding: 4rem;
   font-size: 2rem;
   border-radius: 1rem;
   height: 40vh;
+  text-align: left;
+  margin: 10rem;
 }
+
+
+#home #sec1 {
+  border:solid 3px;
+  text-align: center;
+}
+
+
 
 #home img {
   width: 80vh;
