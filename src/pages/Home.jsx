@@ -24,8 +24,8 @@ function Home() {
                             and Nmap within a virtual SOC-style lab enviornment.
                         </p>
                         <ul>
-                            <li>Configured and secured virtual machines, internal networks, web servers, and DNS systems within a simulated environment.</li>
-                            <li>Supported system adminstration across Windows/Linux while applying foundational security controls to protect systems.</li>
+                            <li className="port-listitem">Configured and secured virtual machines, internal networks, web servers, and DNS systems within a simulated environment.</li>
+                            <li className="port-listitem">Supported system adminstration across Windows/Linux while applying foundational security controls to protect systems.</li>
 
                         </ul>
 
@@ -37,8 +37,8 @@ function Home() {
                             environment.
                         </p>
                         <ul>
-                            <li>Assessed vulnerabilities across production servers and network environments to identify security gaps. </li>
-                            <li>Implemented remediation strategies and recommended improvements to strengthen overall security posture and align with best practices. </li>
+                            <li className="port-listitem">Assessed vulnerabilities across production servers and network environments to identify security gaps. </li>
+                            <li className="port-listitem">Implemented remediation strategies and recommended improvements to strengthen overall security posture and align with best practices. </li>
 
                         </ul>
                     </div>
@@ -48,9 +48,9 @@ function Home() {
                             and documented  three suspicious files, Hoot.txt, Hashbrowns.txt, and Hide.txt.
                         </p>
                         <ul>
-                            <li>Analyzed security data and investigated simulated threats to support incident detection, response, and mitigation efforts.</li>
-                            <li>Participated in capture-the-flag (CTF) exercises to identify, exploit, and remediate vulnerabilities across systems. </li>
-                            <li>Applied log analysis and penetration testing concepts to document findings and recommend mitigation strategies.</li>
+                            <li className="port-listitem">Analyzed security data and investigated simulated threats to support incident detection, response, and mitigation efforts.</li>
+                            <li className="port-listitem">Participated in capture-the-flag (CTF) exercises to identify, exploit, and remediate vulnerabilities across systems. </li>
+                            <li className="port-listitem">Applied log analysis and penetration testing concepts to document findings and recommend mitigation strategies.</li>
 
                         </ul>
                     </div>
